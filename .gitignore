@@ -1,0 +1,24 @@
+# Dataset — obtain from the MER2026 organisers
+dataset/
+
+# Per-voter prediction files and intermediate outputs
+results/
+*.jsonl
+*.pkl
+*.pt
+
+# Credentials and local tool settings
+.env*
+*credentials*
+*.pem
+*.key
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
